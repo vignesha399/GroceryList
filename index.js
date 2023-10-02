@@ -2,10 +2,11 @@ const express = require('express');
 const app = express();
 const router = require('express').Router()
 const https = require('https');
-const http = require('http');
+const fs = require('fs');
 const uuid = require('uuid')
 const cookieParser = require('cookie-parser');
 const EventEmitter = require('events');
+// const gindexH =  require('./GroceryList/GroceryList/index.html');
 
 
 
@@ -24,12 +25,13 @@ const ee = new EventEmitter
 console.log(ee.getMaxListeners(ee));
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
-app.use('/',require('./api/user'))
 app.use('/api/user/signs/decode',require('./sign'))
 app.use('/api/user/sign',require('./sign'))
 app.use('/api/user/',require('./api/user'))
 app.use('/api/register',require('./api/register'))
-app.use('/main/db',require('./db'))
+app.use('/main/page',require('./db'))
+app.use('/',require('./sign'))
+
 // app.use(app1)
 
 
