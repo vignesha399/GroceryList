@@ -141,7 +141,7 @@ function logout(){
   console.log(cname = output.split(';'));
   console.log(output="expires="+date);
   console.log(document.cookie,cname[0]);
-  window.location.href=("http://localhost:5500/GroceryList/index.html");
+  window.location.href=("./index.html");
 }
 // console.log(JSON.parse(file.json));
 let num = 1;
