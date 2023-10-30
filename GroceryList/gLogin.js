@@ -57,7 +57,7 @@ async function login(ev){
             if(un == iname && upass == ipass){
                 let date = new Date(new Date().getTime() + 1 * 1 * 1 * 1000);
                 console.log(date);
-                window.location.assign("http://localhost:5500/GroceryList/gGros.html");
+                window.location.href("./gGros.html");
                 document.cookie = iname+"="+encodeURI(id+";"+ipass+";"+avatar+";")+"; SameSite=none; expires="+date+"; Secure`;";
                 let value =""+iname+";"+ipass+";"+id+";"+avatar;
                 document.cookie = "our"+"="+value+"; expires="+date+"; SameSite=None; Secure";
