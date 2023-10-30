@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-width: 100vw;
+    height: 100vh;
+    position: relative;
+    text-align: end;
+    background: linear-gradient(45deg, rgba(255, 0, 255, 0.528) , rgba(252, 143, 143, 0.407) ),linear-gradient(45deg, rgb(254, 255, 255) , rgba(255, 0, 0, 0.879) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+
+}
+table{
+    max-width: 767px;
+    min-width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr,td,th{
+    border: 1px solid rgb(245, 235, 235);
+    border-collapse: collapse;
+    padding: 5px;
+}
+th{
+    background-color: rgb(218, 171, 171);
+}
+tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+tr:nth-child(even){
+    background-color: rgb(252, 252, 252);
+}
+.class{
+    padding: 3px;
+    overflow: hidden;
+    padding: 5px;
+    outline: none;margin: 1%;
+}
+.class:hover{
+    padding: 5px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+#buttonDiv{
+    display: flex;
+}
+#tableGroceListDiv{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.216);
+    border-radius: 8px;
+    max-width: 80%;
+    min-width: 79%;
+    text-align: center;
+    border: 1px solid rgb(180, 163, 133);
+    box-shadow: 10px 10px 10px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#tableGroceList{
+    margin: auto;
+    position: relative;
+    text-align: center;
+    border-radius: 8px;
+    right: 0%;
+    /* border: 1px solid white; */
+    max-width: 100%;
+    min-width: 100%;
+}
+#logout > a {
+    right: 100px;
+    color: whitesmoke;
+}
+#logout{
+    left: 100px;
+    color: whitesmoke;
+    margin: 3%;
+}
