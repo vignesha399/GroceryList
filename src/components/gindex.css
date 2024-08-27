@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.loginBody{
+    width: 100vw;
+    height: 100vh;background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 50%,rgba(0, 0, 0, 0.6) 50%),url('https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.loginh1{
+    color: rgb(255, 255, 255);
+    margin: 7%;
+}
+.loginDiv,.Loginp{
+    margin: 6%;
+    border-radius: 6%;
+}
+.loginLabel{
+    padding: 5px;
+    display: block;
+}
+.invalid{
+    width: 80%;
+    background-color:  white;
+    outline: none;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid red;
+}
+.loginInput{
+    width: 80%;
+    background-color:  white;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 10px;
+    border-radius: 5%;
+}
+.loginInput:focus{
+    width: 80%;
+    background-color:  white;
+    border: 2px solid blue;
+    outline: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+.loginFieldset{
+    border-radius: 6%;
+}
+#formDiv{
+    margin: none;
+    text-align: center;
+    min-width: 30%;
+    max-width: 400px;
+    background-color: white;
+    padding: 0.5%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+.LoginButton{
+    margin: 5%;
+    padding: 3px;
+    border: none;
+    background-image:   linear-gradient(60deg, rgba(255, 2, 2, 0.533), rgb(233, 168, 46),rgba(39, 39, 212, 0.6)),
+                        linear-gradient(90deg, green, grey,violet);
+    
+    border-radius: 5% 50%;
+    width: 50%;
+}
+#forgot_password{
+    width: 100%;
+    margin: 0%;
+    margin:0 0 1% 1%;
+    padding:0 0 2% 0%;
+    text-align: end;
+}
+#create_account{
+    width: 100%;
+    margin: 0%;
+    margin:0 0 1% 1%;
+    padding:0 0 2% 0%;
+    text-align: end;
+}
+	
